@@ -1,0 +1,43 @@
+// Option block image
+.option-block__image {
+    width: 7rem;
+    height: 7rem;
+    transition: all 0.5s;
+    position: absolute;
+    top: 10%;
+}
+
+// Explore image icon
+.img-icon:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.img-icon:hover .img-hidden{
+    display: block;
+}
+
+.img-btn {
+    transition: all .5s;
+    width: 5rem;
+    height: 5rem;
+}
+
+// Explore image icon hover
+.img-hidden {
+    display: none;
+}
+
+.img-active {
+    display: block;
+}
+
+// Explore item image
+.explore-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}

@@ -1,0 +1,112 @@
+.contact {
+    height: 5rem;
+    &-background {
+        display: flex;
+        background-image: linear-gradient(#F8E1DB, rgba(207, 174, 157, 0.1)), url(../../img/part-bg2.png);
+        position: relative;
+        height: 34rem;
+        margin-top: 24rem;
+        border-radius: 2rem;
+        &__element {
+            height: 34rem;
+            position: relative;
+        }
+
+        &__wrap {
+            display:flex;
+            flex-direction: column;
+            top: 6.6rem;
+            position: absolute;
+            left: 6rem;
+        }
+
+        &__text {
+            font-family: "archivo";
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 2.8rem;
+            font-style: normal;
+            text-align: left;
+            color: $black-text-color;
+            width: 60%;
+            margin-bottom: 1.2rem;
+        }
+
+        &__description {
+            font-family: "archivo";
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 2.8rem;
+            font-style: normal;
+            text-align: left;
+            width: 37%;
+            margin-bottom: 3rem;
+        }
+
+        &__box {
+            display: flex;
+            flex-direction: row;
+            background-color: $background-web;
+            padding: 1.6rem 3rem;
+            width: 50%;
+            border-radius: 2rem;
+            box-shadow: (.5rem 1rem 1.5rem rgba(59,55,53,0.05 ));
+
+            &--email {
+                margin: auto 0;
+                height: 1.4rem;
+                left: -5rem;
+                cursor: pointer;
+                line-height: 28px;
+            }
+
+            &--title {
+                margin-left: 1rem;
+                font-family: "archivo";
+                font-size: 1.4rem;
+                font-weight: normal;
+                line-height: 28px;
+                font-style: normal;
+                text-align: left;
+                color: #8d8d8d;
+                width: 80%;
+                border: none;
+                background-color: $background-web;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            &--send {
+                margin-left: 1rem;
+                font-size: 1.8rem;
+                background-color: $orange-main-color;
+                width: 5rem;
+                height: 5rem;
+                text-align: center;
+                border-radius: 40%;
+                text-decoration: none;
+                box-shadow: (5px 10px 15px rgba(231,111,81,0.4 ));
+                
+                &:hover {
+                    box-shadow: (0px 0px 8px 8px rgba(233, 113, 83, 0.4));
+                }
+            }
+
+            &--send1 {
+                color: $background-web;
+                margin-top: 1.5rem;
+            }
+        }
+
+        &__image {
+            position: absolute;
+            left: 83rem;
+            &--tree {
+                margin-top: 3rem;
+                width: 38rem;
+            }
+        }
+    }
+}

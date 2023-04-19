@@ -1,0 +1,81 @@
+// option text and des
+.option-block {
+    &__text {
+        font-family: "archivo";
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: 2.8rem;
+        font-style: normal;
+        text-align: center;
+        color: $black-text-color;
+    }
+
+    &__description {
+        font-family: "roboto";
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+        font-style: normal;
+        text-align: center;
+        color: $black-text-color;
+        padding: 0 1.6rem;
+    }
+}
+
+// explore text
+.explore-content__text {
+    font-family: "archivo";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    text-align: center;
+    color: $black-text-color;
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    width: 65%;
+}
+
+// explore item text
+.explore-item__text {
+    margin-top: 5rem;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $black-text-color;
+    font-family: "archivo";
+}
+
+// explore item description
+.explore-item__description {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 2.6rem;
+    text-align: center;
+    color: $black-text-color;
+}
+
+// footer content heading
+.footer-content__left--heading,
+.footer-content__center1--heading,
+.footer-dowload__heading {
+    font-family: "archivo";
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    color: $black-text-color;
+    margin-bottom: 1.2rem;
+}
+// footer content item
+.footer-content__center1-item {
+    font-family: "archivo";
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    color: $black-text-color;
+}

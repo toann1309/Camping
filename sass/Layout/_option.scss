@@ -1,0 +1,46 @@
+.option {
+    margin-top: -5.2rem;
+    display: flex;
+    &-block{
+        width: 32rem;
+        height: 28rem;
+        background-color: $white-color;
+        cursor: pointer;
+        border-radius: 2.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+
+        &__content {
+            transition: all .5s ease-out;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            bottom: -25rem;
+        }
+
+        &:hover .option-block__content {
+            bottom: 3rem;
+            animation: split .5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+
+        &__seemore {
+            margin-top: 14rem;
+            text-decoration: none;
+            font-size: 1.4rem;
+            padding: 0.8rem 1.6rem;
+            color: $background-second-web;
+            background-image: linear-gradient(120deg, $orange-main-color 0%, $black-text-color 50%, transparent 50%);
+            background-size: 318%;
+            background-position: -32rem;
+            border-radius: 8px;
+        }
+
+        &:hover .option-block__seemore {
+            display: none;
+        }
+    }
+}

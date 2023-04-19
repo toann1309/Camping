@@ -1,0 +1,41 @@
+.diagonal-line{
+    &::after {
+        clear: both;
+        content: "";
+        width: 3.8rem;
+        height: .2rem;
+        position: absolute;
+        transform: rotate(45deg);
+        top: -100%;
+        left: -1.7rem;
+        display: block;
+        transition: all .3s;
+        background-color: $orange-main-color;
+        opacity: 0;
+        &:nth-child(2) {
+            clear: both;
+            content: "";
+            width: 3.8rem;
+            height: .2rem;
+            position: absolute;
+            transform: rotate(45deg);
+            display: block;
+            transition: all .3s;
+            background-color: $orange-main-color;
+            opacity: 0;
+            top: -94%;
+            left: -.5rem;
+        }
+    }
+    
+}
+
+.diagonal-line.active::after {
+    transform: rotate(45deg) translate(3rem,.5rem);
+    opacity: 1;
+}
+
+.diagonal-line:hover::after {
+    transform: rotate(45deg) translate(3rem,.5rem);
+    opacity: 1;
+}
