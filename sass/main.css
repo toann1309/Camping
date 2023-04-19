@@ -552,7 +552,7 @@ html {
 }
 .explore-item__click .fa-heart {
   -webkit-text-stroke: 1px #E76F51; /* Cho trình duyệt Safari và Chrome */
-  text-stroke: 1px #E76F51;
+  stroke: 1px #E76F51;
 }
 .explore-item__click.active .fa-heart {
   animation: like 0.5s 1;

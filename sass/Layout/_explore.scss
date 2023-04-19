@@ -59,7 +59,7 @@
 
         &__click .fa-heart {
             -webkit-text-stroke: 1px $orange-main-color; /* Cho trình duyệt Safari và Chrome */
-            text-stroke: 1px $orange-main-color;
+            stroke: 1px $orange-main-color;
         }
 
         &__click.active .fa-heart {
