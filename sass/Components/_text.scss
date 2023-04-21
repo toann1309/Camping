@@ -1,7 +1,7 @@
 // option text and des
 .option-block {
     &__text {
-        font-family: "archivo";
+        font-family: "roboto";
         font-size: 1.8rem;
         font-weight: 900;
         line-height: 2.8rem;
@@ -24,7 +24,7 @@
 
 // explore text
 .explore-content__text {
-    font-family: "archivo";
+    font-family: "archivo",sans-serif;
     font-size: 4rem;
     font-weight: 900;
     line-height: 4rem;
@@ -42,7 +42,7 @@
     font-size: 1.6rem;
     text-align: center;
     color: $black-text-color;
-    font-family: "archivo";
+    font-family: "archivo",sans-serif;
 }
 
 // explore item description
@@ -60,7 +60,7 @@
 .footer-content__left--heading,
 .footer-content__center1--heading,
 .footer-dowload__heading {
-    font-family: "archivo";
+    font-family: "roboto";
     font-size: 18px;
     font-weight: 900;
     line-height: 28px;
@@ -71,7 +71,7 @@
 }
 // footer content item
 .footer-content__center1-item {
-    font-family: "archivo";
+    font-family: "archivo",sans-serif;
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 28px;

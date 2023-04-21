@@ -13,6 +13,7 @@
         align-items: center;
         position: relative;
         overflow: hidden;
+        z-index: 99;
 
         &__content {
             transition: all .5s ease-out;

@@ -242,7 +242,7 @@ html {
 }
 
 .option-block__text {
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 2.8rem;
@@ -262,7 +262,7 @@ html {
 }
 
 .explore-content__text {
-  font-family: "archivo";
+  font-family: "archivo", sans-serif;
   font-size: 4rem;
   font-weight: 900;
   line-height: 4rem;
@@ -279,7 +279,7 @@ html {
   font-size: 1.6rem;
   text-align: center;
   color: #3B3735;
-  font-family: "archivo";
+  font-family: "archivo", sans-serif;
 }
 
 .explore-item__description {
@@ -295,7 +295,7 @@ html {
 .footer-content__left--heading,
 .footer-content__center1--heading,
 .footer-dowload__heading {
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 900;
   line-height: 28px;
@@ -306,7 +306,7 @@ html {
 }
 
 .footer-content__center1-item {
-  font-family: "archivo";
+  font-family: "archivo", sans-serif;
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 28px;
@@ -317,12 +317,13 @@ html {
 
 .on-top {
   position: fixed;
-  bottom: 6%;
+  bottom: 7%;
   right: 2%;
   padding: 2rem;
   border-radius: 2rem;
-  box-shadow: 0px 0px 17px 0px rgb(231, 111, 81);
+  box-shadow: 0px 0px 15px 0px rgb(231, 111, 81);
   cursor: pointer;
+  z-index: 10;
   display: flex;
   transition: all 0.2s ease-in-out;
 }
@@ -331,6 +332,7 @@ html {
 }
 
 .header {
+  z-index: 20;
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3)), url(../img/backgroud-header.png);
@@ -420,7 +422,7 @@ html {
   color: white;
   padding: 0 5rem;
   margin-bottom: 4rem;
-  font-family: "archivo";
+  font-family: "archivo", sans-serif;
   font-weight: 800;
   line-height: 7.8rem;
   transition: all 0.5s;
@@ -486,6 +488,7 @@ html {
   align-items: center;
   position: relative;
   overflow: hidden;
+  z-index: 99;
 }
 .option-block__content {
   transition: all 0.5s ease-out;
@@ -591,10 +594,10 @@ html {
   text-decoration: none;
   color: #8D8D8D;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2.6rem;
   text-align: center;
-  font-family: "archivo";
+  font-family: "roboto";
   padding: 1.3rem 5rem;
   background-color: rgba(103, 98, 98, 0.2);
   margin-top: 2.4rem;
@@ -607,7 +610,7 @@ html {
 .explore-view:link, .explore-view:visited {
   position: absolute;
   text-decoration: none;
-  font-family: "archivo";
+  font-family: "roboto";
   padding: 1.6rem 3.2rem;
   width: 20rem;
   border: 1px solid #E76F51;
@@ -649,7 +652,7 @@ html {
   left: 6rem;
 }
 .contact-background__text {
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 2.8rem;
@@ -660,7 +663,7 @@ html {
   margin-bottom: 1.2rem;
 }
 .contact-background__description {
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.8rem;
@@ -687,7 +690,7 @@ html {
 }
 .contact-background__box--title {
   margin-left: 1rem;
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 28px;
@@ -745,22 +748,13 @@ html {
   flex-direction: column;
   justify-content: space-around;
 }
-.footer-content__img {
-  left: 134rem;
-  top: -3rem;
-  padding: 1.8rem;
-  position: relative;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 5px 10px 15px rgba(59, 55, 53, 0.05);
-}
 .footer-content__left {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 .footer-content__left--description {
-  width: 77%;
-  font-family: "archivo";
+  width: 85%;
+  font-family: "roboto";
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 28px;
@@ -770,7 +764,7 @@ html {
 }
 .footer-content__right {
   margin-right: 10rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: row;
 }
@@ -795,7 +789,7 @@ html {
   left: 71rem;
 }
 .footer-policy__text {
-  font-family: "archivo";
+  font-family: "roboto";
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;

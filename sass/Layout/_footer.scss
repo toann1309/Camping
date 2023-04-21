@@ -15,22 +15,12 @@
         flex-direction: column;
         justify-content: space-around;
 
-        &__img {
-            left: 134rem;
-            top: -3rem;
-            padding: 1.8rem;
-            position: relative;
-            background-color: $white-color;
-            border-radius: 20px;
-            box-shadow: (5px 10px 15px rgba(59,55,53,0.05 ));
-        }
-
         &__left {
             margin: 0 auto;
-            margin-top: 2rem;
+            margin-top: 6rem;
             &--description {
-                width: 77%;
-                font-family: "archivo";
+                width: 85%;
+                font-family: "roboto";
                 font-size: 1.4rem;
                 font-weight: normal;
                 line-height: 28px;
@@ -42,7 +32,7 @@
 
         &__right {
             margin-right: 10rem;
-            margin-top: 2rem;
+            margin-top: 6rem;
             display: flex;
             flex-direction: row;
         }
@@ -72,7 +62,7 @@
         left: 71rem;
 
         &__text {
-            font-family: "archivo";
+            font-family: "roboto";
             font-size: 16px;
             font-weight: normal;
             line-height: 28px;
